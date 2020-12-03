@@ -1,3 +1,5 @@
+https://github.com/Vincent131499/Chinese-OCR3
+
 https://blog.csdn.net/hancoder/article/details/106922139
 
 https://www.pythonf.cn/read/129365
