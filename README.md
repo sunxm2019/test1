@@ -1,5 +1,49 @@
-ISBN-10 : 4797391464
-ISBN-13 : 978-4797391466
+http://docs.vikingship.xyz/
+
+1. LST download: https://nodejs.org/en/download/
+
+2. run msi file
+
+   ![image-20210501144937483](vue setup.assets/image-20210501144937483.png)
+
+   check: node -v, npm -v
+
+   2.env:
+
+   del path: C:\Users\sunxm\AppData\Roaming\npm
+
+   add path: C:\Program Files\nodejs
+
+   ​                  C:\Program Files\nodejs\node_global
+
+   new path: NODE_PATH = C:\Program Files\nodejs\node_global\node_modules
+
+   3. folder:
+
+      C:\Program Files\nodejs\node_global
+
+      C:\Program Files\nodejs\node_cache
+
+   4. cmd:
+
+   npm config set prefix "C:\Program Files\nodejs\node_global"
+   npm config set cache "C:\Program Files\nodejs\node_cache"
+
+   check: npm config list
+
+5.npm install webpack -g
+
+```javascript
+npm install -g @vue/cli --force
+vue --version
+```
+
+// npm install -g cnpm
+//npm install -g vue-cli     //cnpm install @vue/cli@4.5.4 -g
+
+vue --version:4.5.12
+
+
 
 
 https://ppt.mfa.gov.cn/appo/index.html
