@@ -1,3 +1,5 @@
+J63P-XH3K-8NM3-AAMH-U9VK
+
 http://docs.vikingship.xyz/
 
 1. LST download: https://nodejs.org/en/download/
