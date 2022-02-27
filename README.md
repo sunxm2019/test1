@@ -1,3 +1,4 @@
+
 https://docker-py.readthedocs.io/en/stable/
 https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=header
 
@@ -8,6 +9,8 @@ https://www.cnblogs.com/Alier/p/8125524.html
 https://m.yisu.com/zixun/165800.html
 
 https://www.pythonheidong.com/blog/article/900860/4a50ac62cdfe9dcb5d4d/
+
+https://www.pugetsystems.com/labs/articles/Unreal-Engine-12th-Gen-Intel-Core-vs-AMD-Ryzen-5000-Series-2249/
 
 
 
