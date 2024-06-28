@@ -12,3 +12,7 @@ https://github.com/vinceright3
 
 https://qiita.com/c60evaporator/items/ba41cef4b37465c39948
 
+1.Manning.Effective.Software.Testing.2022.3
+2.Manning.The.Art.of.Unit.Testing.3rd.2024.2
+3.OReilly.Learning.Test-Driven.Development.2021.10
+
