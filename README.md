@@ -12,7 +12,8 @@ https://github.com/vinceright3
 
 https://qiita.com/c60evaporator/items/ba41cef4b37465c39948
 
-1.Manning.Effective.Software.Testing.2022.3
-2.Manning.The.Art.of.Unit.Testing.3rd.2024.2
-3.OReilly.Learning.Test-Driven.Development.2021.10
+2023.超越百岁：长寿的科学与艺术
+2024.一如既往
+2024.拐点：站在Al颠覆世界的前夜—万维刚
+2024.如何管理10人以下小团队
 
