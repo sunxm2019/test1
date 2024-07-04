@@ -12,5 +12,5 @@ https://github.com/vinceright3
 
 https://qiita.com/c60evaporator/items/ba41cef4b37465c39948
 
-2020.深思考2021.好好走路不會老2023.改变提问改变人生：12个改善生活与工作的有力工具第4版2024.哲学思维_清晰思考的12条关键原则
+
 
