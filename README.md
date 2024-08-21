@@ -35,3 +35,20 @@ Object
 Null
 Timestamp
 Date -> new Date('2024-01-01'), = python:datetime.datetime.now()
+
+db._new_collection.insert({"name":"XXXX","age":10})
+db._new_collection.insert({name:"XXXX",age:10})
+db._collection.find()
+
+db._collection.save({name:"XXXX",age:10})  if new: insert, if exist: update
+
+db._collection.update({"name":"XXXX"}, {"name":"YYYY"}) overwrite
+db._collection.update({"name":"XXXX"}, {$set:{"name":"YYYY"}})
+db._collection.update({"name":"XXXX"}, {$set:{"name":"YYYY"}},{multi:true})
+
+db._collection.remove({"name":"XXXX"},{justOne:true})
+
+
+
+
+
