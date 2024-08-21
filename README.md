@@ -14,3 +14,24 @@ https://qiita.com/c60evaporator/items/ba41cef4b37465c39948
 
 https://download.studio3t.com/studio-3t/windows/2024.3.1/studio-3t-x64.zip
 
+show dbs
+use db_name
+db
+db.dropDatabase()
+
+db.createCollection("stu")
+db.createCollection("stu",{capped:true, size:10})
+show collections
+db._collection_name.drop()
+
+data type:
+Object ID:12byte(auto)
+String
+Boolean: true/false
+Integer
+Double
+Arrays
+Object
+Null
+Timestamp
+Date -> new Date('2024-01-01'), = python:datetime.datetime.now()
