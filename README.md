@@ -12,5 +12,5 @@ https://github.com/vinceright3
 
 https://qiita.com/c60evaporator/items/ba41cef4b37465c39948
 
-
+https://download.studio3t.com/studio-3t/windows/2024.3.1/studio-3t-x64.zip
 
