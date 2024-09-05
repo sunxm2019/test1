@@ -48,6 +48,9 @@ db._collection.update({"name":"XXXX"}, {$set:{"name":"YYYY"}},{multi:true})
 
 db._collection.remove({"name":"XXXX"},{justOne:true})
 
+https://github.com/Befzz/blender3d_import_psk_psa
+https://github.com/DarklightGames/io_scene_psk_psa
+
 
 
 
