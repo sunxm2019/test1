@@ -52,6 +52,30 @@ https://github.com/Befzz/blender3d_import_psk_psa
 https://github.com/DarklightGames/io_scene_psk_psa
 https://github.com/SirWaddles/JohnWickParse/blob/35956123aa1840d626fa79b5dfc75b4c910b8509/src/assets.rs#L2093
 
+from UE4Parse.Assets.PackageReader import LegacyPackageReader
+from UE4Parse.BinaryReader import BinaryStream
+from UE4Parse.Versions import EUEVersion
+from UE4Parse.Provider import DefaultFileProvider, MappingProvider
+from UE4Parse.Versions import EUEVersion, VersionContainer
+import logging
+
+logging.getLogger("UE4Parse").setLevel(logging.DEBUG)
+
+asset = r'C:\Blender\python\UE\test_samples\SM_build_czmhdst.uasset'
+uasset = BinaryStream(asset)
+uasset.mappings = MappingProvider("C:\\downloads\\wukong\\paks\\wk.usmap")
+uasset.version = EUEVersion.GAME_BlackMythWukong
+
+path = r'C:\Blender\python\UE\test_samples'
+provider = DefaultFileProvider(path, VersionContainer(EUEVersion.GAME_BlackMythWukong))
+
+reader = LegacyPackageReader(uasset, provider =provider) #, version=EUEVersion.GAME_BlackMythWukong
+# reader = LegacyPackageReader(uasset)
+
+print('\n-- Types --')
+for export_data in reader.ExportMap:
+  print(export_data.type.string)
+
 
 
 
