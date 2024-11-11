@@ -1,3 +1,6 @@
+conftest:
+import sys, os
+sys.path.append(os.path.abspath(os.path.dirname(os.path.abspath(__file__)) + "/../src/"))
 
 test
 https://github.com/Kensuke-Hinata/statistic/tree/master
@@ -52,11 +55,7 @@ https://github.com/Befzz/blender3d_import_psk_psa
 https://github.com/DarklightGames/io_scene_psk_psa
 https://github.com/SirWaddles/JohnWickParse/blob/35956123aa1840d626fa79b5dfc75b4c910b8509/src/assets.rs#L2093
 
-provider = DefaultFileProvider(os.path.dirname(path0), VersionContainer(EUEVersion.LATEST))
-provider.initialize()
-uasset = BinaryStream(path0)
-uasset.mappings = None # None if versioned package
-pack = LegacyPackageReader(uasset, BinaryStream(path1), provider=provider)
+https://www.magata.net/memo/index.php?pytest%C6%FE%CC%E7#xd11be7f
 
 
 
