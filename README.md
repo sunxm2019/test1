@@ -55,6 +55,8 @@ https://github.com/Befzz/blender3d_import_psk_psa
 https://github.com/DarklightGames/io_scene_psk_psa
 https://github.com/SirWaddles/JohnWickParse/blob/35956123aa1840d626fa79b5dfc75b4c910b8509/src/assets.rs#L2093
 
+https://github.com/xavier150/Blender-For-UnrealEngine-Addons
+
 https://www.magata.net/memo/index.php?pytest%C6%FE%CC%E7#xd11be7f
 
 
