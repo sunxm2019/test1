@@ -63,6 +63,8 @@ https://github.com/boxerprogrammer
 https://github.com/d3dcoder/d3d12book
 https://github.com/microsoft/DirectX-Graphics-Samples
 
+https://github.com/shoeisha-books/hlsl-grimoire-sample
+
 
 
 
