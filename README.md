@@ -51,6 +51,8 @@ db._collection.update({"name":"XXXX"}, {$set:{"name":"YYYY"}},{multi:true})
 
 db._collection.remove({"name":"XXXX"},{justOne:true})
 
+https://stackoverflow.com/questions/46859352/c-c-launch-an-application-and-handle-its-i-o-calls-to-the-system
+
 https://github.com/Befzz/blender3d_import_psk_psa
 https://github.com/DarklightGames/io_scene_psk_psa
 https://github.com/SirWaddles/JohnWickParse/blob/35956123aa1840d626fa79b5dfc75b4c910b8509/src/assets.rs#L2093
